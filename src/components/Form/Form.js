@@ -5,6 +5,8 @@ const Form = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [submitted, setSubmitted] = useState(false);
+
+    
   
     const handleSubmit = (e) => {
       e.preventDefault();
@@ -12,6 +14,8 @@ const Form = () => {
         setSubmitted(true);
       }
     };
+
+
   return (
     <form
       className="bg-purple-400 text-white w-[400px] h-[400px] p-5 flex flex-col gap-5 justify-center mx-auto items-center "
